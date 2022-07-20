@@ -1,0 +1,10 @@
+A user can...
+ * navigate to the /login page and login, using the displayed login form
+ ** to login, the user must put in a valid username/password combination.
+ ** if an invalid username/password combination is provided, an appropriate error message should be displayed to the user
+ ** if a valid username/password combination is provided, the user should be redirected to the homepage. The navbar should also display now the 'Home' and 'Store' and 'Logout' navigation item, as they can only be accessed by an authenticated user.  'Pets' menu still should be visible, it is available for logged in and not logged in users too.
+Existing user e.g:
+        username: demo.user
+        password: Test!123
+
+Based on the requirements mentioned above, design a set of test cases for "Login to Petstore" feature. Test cases should be designed in a way which can be easily implemented for a data driven automation framework. Note: Make sure tests are clear and following the test design practices.

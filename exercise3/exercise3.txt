@@ -1,0 +1,21 @@
+Given an html page, where we want to define some element in a special way written in XML.
+Feel free to visit the page in Google Chrome and use Developer Tools (F12) to see the same in a better format than the following image.
+For UI automation we must identify the elements somehow. In our tool we can do that with XML format:
+<button id="petsButton" attribute:id="navigation__pets" />
+where 
+- 'button' is the html tag we are referring to
+- 'id' is the local name we are going to use in our tool, that should be unique following naming conventions of variable (camelCase)
+- 'attribute:id' is the id attribute in the html what we are using as a condition.
+While defining condition(s), it is really important to identify a single element in the html dom.
+So this xml describes the Pets button on the UI using this part of the html
+<button _ngcontatn-htth-c204 mat-button id="navigation__pets" routerlink="/pets" class="mat-focus-indicator mat-button mat-button-base" tabindex="0">
+
+see: PetsoteLoginPage.png or for better visibility, inspect the page with any developer tool
+
+a) Based on the example above, how would you define the Login (selected on the image) on the top right side of the screen? see: PetstoreNavigateLoginButton.png or for better visibility, inspect the page with any developer tool
+
+b) Based on the example above, how would you define the Username (selected on the image) for log in? see: PetstoreUsernameInput.png or for better visibility, inspect the page with any developer tool
+
+c) Based on the example above, how would you define the Login (selected on the image) for log in? see: PetstoreLoginButton.png or for better visibility, inspect the page with any developer tool
+
+d) How would you define the "don't have an account yet?" part? see: PetstoreLoginNoAccount.png or for better visibility, inspect the page with any developer tool
